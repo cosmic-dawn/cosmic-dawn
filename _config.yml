@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Henry Joy Mc Cracken"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "My awesome biography constrained to a sentence ...."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
