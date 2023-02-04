@@ -1,9 +1,13 @@
 main:
   - title: "Posts"
     url: /posts/
-  - title: "Categories"
+  - title: "COSMOS"
     url: /categories/
-  - title: "Tags"
+  - title: "Euclid"
     url: /tags/
+  - title: "Everything else"
+    url: /about/
+    - title: "Other sites"
+    url: /about/  
   - title: "About"
     url: /about/

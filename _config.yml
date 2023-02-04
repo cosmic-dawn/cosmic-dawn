@@ -13,7 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CANDIDE data!!! 
+title: CANDIDE data  
+subtitle: "Version 1.0"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   A 
@@ -30,6 +31,7 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+#repository: "cosmic-dawn/cosmic-dawn"
 
 include:
   - _pages
@@ -89,8 +91,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
+      author_profile: false
+      read_time: false
       comments: true
       share: true
       related: true
