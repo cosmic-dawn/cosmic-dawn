@@ -1,13 +1,24 @@
 main:
-  - title: "Posts"
-    url: /posts/
   - title: "COSMOS"
-    url: /categories/
+    url: /cosmos/
   - title: "Euclid"
-    url: /tags/
-  - title: "Everything else"
-    url: /about/
-    - title: "Other sites"
-    url: /about/  
+    url: /euclid/
+  - title: "Other data"
+    url: /other-data/
   - title: "About"
     url: /about/
+
+docs:
+  - title: COSMOS data products
+    children:
+      - title: "COSMOS catalogues"
+        url: /docs/COSMOS-cats/
+      - title: "COSMOS imaging data"
+        url: /docs/COSMOS-imaging/
+      - tile : "UltraVISTA data"    
+        url: /docs/ultravista-imaging/
+            
+  - title: Cosmic dawn survey data products
+    children:
+      - title: "Spitzer data"
+        url: /docs/spitzer/

@@ -3,4 +3,6 @@ permalink: /about/
 title: "About"
 ---
 
-xxxx archives and distributes data produced by the CANDIDE computer system at the Insitut d'Astrophysique de Paris. 
+CANDIDE is a new data repositority at the  [Institut d'astrophysique de Paris](http://www.iap.fr "hp"). 
+
+It has been funded by grants from the DIM-ACAV, the CNES and the ANR. 
