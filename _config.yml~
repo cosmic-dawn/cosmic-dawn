@@ -22,6 +22,7 @@ twitter_username: hjmcc
 github_username: username
 minimal_mistakes_skin: dark
 search: true
+encoding: utf-8
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -70,6 +71,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 footer:
     - label: "GitHub"

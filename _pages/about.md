@@ -1,6 +1,8 @@
 ---
 permalink: /about/
 title: "About"
+sidebar:
+  nav: "docs"
 ---
 
 CANDIDE is a new data repositority at the  [Institut d'astrophysique de Paris](http://www.iap.fr "hp"). 
