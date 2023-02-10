@@ -1,5 +1,5 @@
 ---
-title: "COSMOS Imaging Data"
+title: "Spitzer data for the Cosmic dawn survey"
 layout: single
 permalink: /pages/cosmic-dawn-spitzer/
 author_profile: false

@@ -11,14 +11,17 @@ main:
 docs:
   - title: COSMOS data products
     children:
+      - title: "An introduction to the COSMOS survey"
+        url: /pages/cosmos/
       - title: "COSMOS catalogues"
         url: /pages/cosmos-cats/
-      - title: "COSMOS imaging data"
+      - title: "COSMOS optical imaging data"
         url: /pages/cosmos-imaging/
-      - tile : "UltraVISTA data"    
-        url: /pages/ultravista-imaging/
-            
+      - title : "UltraVISTA"    
+        url: /pages/ultravista/            
   - title: Cosmic dawn survey data products
     children:
+      - title: "An introduction to the Cosmic dawn survey"
+        url: /pages/cosmic-dawn/
       - title: "Spitzer data"
         url: /pages/spitzer/
