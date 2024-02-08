@@ -7,4 +7,4 @@ sidebar:
   nav: "docs"
 ---
 
-Cosmos imaging survey data. 
+The COSMOS field is one of the most extensively observed regions in the extragalactic sky. In this page we make available all the imaging data using to make the COSMOS2020 catalogues. 

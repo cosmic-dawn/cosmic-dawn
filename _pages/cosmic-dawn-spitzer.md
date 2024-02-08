@@ -7,4 +7,4 @@ sidebar:
   nav: "docs"
 ---
 
-Cosmos imaging survey data. 
+Mid-infrared light is very important for measuring the stellar mass of galaxies. 
