@@ -7,4 +7,3 @@ sidebar:
   nav: "docs"
 ---
 
-Hey, this is a COSMOS page, this is quite cool ! 
