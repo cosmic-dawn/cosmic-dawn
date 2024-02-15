@@ -2,9 +2,9 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: [ main ]  # Change 'main' to your default branch if different
+    branches: [ master ]  # Change 'main' to your default branch if different
   pull_request:
-    branches: [ main ]  # Change 'main' to your default branch if different
+    branches: [ master ]  # Change 'main' to your default branch if different
 
 jobs:
   build-and-deploy:
