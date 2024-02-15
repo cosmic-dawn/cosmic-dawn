@@ -1,27 +1,44 @@
-name: Build and test Jekyll site
+name: Jekyll site CI
 
 on:
   push:
-    branches:
-      - main  # Set to your default branch, e.g., main or master
+    branches: [ main ]  # Change 'main' to your default branch if different
   pull_request:
-    branches:
-      - main
+    branches: [ main ]  # Change 'main' to your default branch if different
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        persist-credentials: false  # This is necessary for peaceiris/actions-gh-pages
 
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.7.4  # Specify the Ruby version you need for your project
+        ruby-version: 2.7.4  # Specify your Ruby version here
 
-    - name: Build and test Jekyll site
+    - name: Cache Gems
+      uses: actions/cache@v2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+
+    - name: Install Dependencies
       run: |
-        gem install bundler
-        bundle install
-        bundle exec jekyll build
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
+
+    - name: Build Jekyll Site
+      run: bundle exec jekyll build
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GH_PAGES_DEPLOY }}  # Use the PAT you stored as a secret
+        publish_dir: ./_site  # Directory where Jekyll builds your site to
+
