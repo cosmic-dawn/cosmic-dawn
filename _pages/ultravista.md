@@ -7,5 +7,4 @@ sidebar:
   nav: "docs"
 ---
 
-About the UltraVISTA survey. 
-
+The UltraVISTA survey. 

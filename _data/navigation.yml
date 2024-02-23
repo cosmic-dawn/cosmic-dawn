@@ -1,8 +1,12 @@
 main:
+  - title: "Summary page"
+  - url: /pages/summary/
   - title: "COSMOS"
     url: /pages/cosmos/
   - title: "Cosmic dawn"
     url: /pages/cosmic-dawn/
+  - title: "CFHTLS"
+    url: /pages/cfhtls/
   - title: "Other data"
     url: /pages/other-data/
   - title: "About"
@@ -13,11 +17,11 @@ docs:
     children:
       - title: "An introduction to the COSMOS survey"
         url: /pages/cosmos/
-      - title: "COSMOS catalogues"
-        url: /pages/cosmos-cats/
       - title: "COSMOS optical imaging data"
         url: /pages/cosmos-imaging/
-      - title : "UltraVISTA"    
+      - title: "COSMOS2020 catalogue"
+        url: /pages/cosmos-cats/
+      - title : "The UltraVISTA survey"    
         url: /pages/ultravista/            
   - title: Cosmic dawn survey data products
     children:
